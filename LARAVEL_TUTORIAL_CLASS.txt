@@ -1,0 +1,10 @@
+//MODEL
+
+
+//VIEW
+Front_end page or UI
+
+//CONTROLLER
+
+//ROUTE
+
