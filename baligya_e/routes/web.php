@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\BlogController;
 
-Route::get('/',[HomeController::class,'index']);
-Route::get('/contact',[HomeController::class,'contact']);
-Route::get('/contacts',[HomeController::class,'contactpost']);
+
+Route::resource('/blogs', BlogController::class);
+// Route::get('/',[HomeController::class,'index']);
+// Route::get('/contact',[HomeController::class,'contact']);
+// Route::get('/contacts',[HomeController::class,'contactpost']);
 
 
 // Route::get('/', function () {

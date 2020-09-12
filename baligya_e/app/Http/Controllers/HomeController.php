@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        echo "Welcome";
+        echo "iyotski";
     }
     public function contact()
     {
